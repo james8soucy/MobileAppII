@@ -1,0 +1,41 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-tesseract": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "com.paypal.cordova.mobilesdk": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "com.phonegap.plugins.twilioclient": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-sms-plugin": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  },
+  "dependent_plugins": {
+    "card.io.cordova.mobilesdk": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    }
+  }
+}

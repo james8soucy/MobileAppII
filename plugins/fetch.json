@@ -1,0 +1,74 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@^4.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-tesseract": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/gustavomazzoni/cordova-plugin-tesseract"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-contacts": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-contacts@^3.0.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.paypal.cordova.mobilesdk": {
+    "source": {
+      "type": "registry",
+      "id": "com.paypal.cordova.mobilesdk@^3.5.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "card.io.cordova.mobilesdk": {
+    "source": {
+      "type": "registry",
+      "id": "card.io.cordova.mobilesdk@2.1.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-console": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-console@^1.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "com.phonegap.plugins.twilioclient": {
+    "source": {
+      "type": "registry",
+      "id": "twilio-client-phonegap-plugin@^1.1.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-sms-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-sms-plugin@^1.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

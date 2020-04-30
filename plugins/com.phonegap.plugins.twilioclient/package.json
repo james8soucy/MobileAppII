@@ -1,0 +1,69 @@
+{
+  "_from": "twilio-client-phonegap-plugin",
+  "_id": "twilio-client-phonegap-plugin@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-SuOHDZucO/eJAn/tBJRHk7x/ibeZm78VDn2jvM4FUFksvhFOQ5EWfKY4VYwtaZvGcW3XtEXsm+YbRs+2/C0yRQ==",
+  "_location": "/twilio-client-phonegap-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "twilio-client-phonegap-plugin",
+    "name": "twilio-client-phonegap-plugin",
+    "escapedName": "twilio-client-phonegap-plugin",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/twilio-client-phonegap-plugin/-/twilio-client-phonegap-plugin-1.1.1.tgz",
+  "_shasum": "13b41e8ff9a90d44c1ae09fedec738aa56921456",
+  "_spec": "twilio-client-phonegap-plugin",
+  "_where": "C:\\Users\\james\\Desktop\\BillSplit\\main\\billsplit",
+  "author": {
+    "name": "Stevie Graham/Lyle Pratt/Jeff Linwood"
+  },
+  "bugs": {
+    "url": "https://github.com/jefflinwood/twilio_client_phonegap/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.phonegap.plugins.twilioclient",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Use the Twilio Client SDK for iOS or Android VoIP support with Cordova/PhoneGap.",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.4.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.3.0"
+    }
+  ],
+  "homepage": "https://github.com/jefflinwood/twilio_client_phonegap#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "Apache",
+  "name": "twilio-client-phonegap-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jefflinwood/twilio_client_phonegap.git"
+  },
+  "version": "1.1.1"
+}

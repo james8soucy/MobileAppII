@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Mobile2</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    </head>
+    <body>
+		<div style="width: 100%; height: 650px;">
+			<div style="text-align:center; width: 100%;">
+				<h1 class="textHead">billSplit</h1>
+			</div>
+			<div id="hideDiv" style="text-align:center; width: 100%; height: 100%; vertical-align: middle;">
+				<button id="pictureButton" class="frontPageButton" onclick="goToPicture()">Capture Reciept</button>
+			</div>
+			<div id="tableDiv" style="height:565px; overflow: scroll;">
+				<table id="itemsTable" style="display: none;">
+					<tr>
+						<th class="tableHead startItem">Item</th>
+						<th class="tableHead headItem">Cost</th>
+						<th class="tableHead startItem">Quantity</th>
+						<th class="tableHead headItem">Person</th>
+					</tr>
+				</table>
+			</div>
+			<div id="tableResDiv" style="height:500px; overflow: scroll; display: none;">
+				<table id="itemsResTable" style="display: none; margin-left:50px; margin-top:40px;">
+					<tr>
+						<th class="tableHead headItem">Person</th>
+						<th class="tableHead headItem">Total</th>
+					</tr>
+				</table>
+			</div>
+			<button class="bottomButton" id="addRowBtn" onclick="add()" style="display: none;">Add Row</button>
+			<button class="bottomButton2" id="remRowBtn" onclick="remove()" style="display: none;">Remove Row</button>
+			<button class="bottomButton2" id="buyNowBtn" onclick="submit()" style="display: none;">Submit</button>
+			<button id="requestButton" style="display: none;" class="submitButton" onclick="textRequest()">Submit Requests</button>
+			<button id="payPalButton" style="display: none; background: url(https://thehustle.co/wp-content/uploads/2019/01/brief_2019-01-15T041431.227Z.jpg); background-size: auto;" class="submitButton">Pay With PayPal</button>
+		</div>
+		
+		
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="js/paypal-mobile-js-helper.js"></script>
+		<!-- <script src='https://www.paypalobjects.com/js/external/connect/api.js'></script> -->
+		<script type="text/javascript" src="js/index.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </body>
+</html>

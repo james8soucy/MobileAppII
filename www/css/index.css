@@ -1,0 +1,72 @@
+.frontPageButton {
+	border: 5px solid SeaGreen;
+	background-color: white;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 20px;
+	color: SeaGreen;
+	height: 10%;
+	width:50%;
+	margin-top: 50%;
+	font-weight: bold;
+}
+.submitButton {
+    border: none;
+    background-color: SeaGreen;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 15px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 20%;
+	margin-bottom:6px;
+}
+.bottomButton {
+	border: 1px solid SeaGreen;
+	background-color: SeaGreen;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 14px;
+	color: white;
+	height: 8%;
+	width:32%;
+	font-weight: bold;
+}
+.bottomButton2 {
+	border: 1px solid SeaGreen;
+	background-color: SeaGreen;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 14px;
+	color: white;
+	height: 8%;
+	width:32%;
+	font-weight: bold;
+}
+.textHead {
+	color: SeaGreen;
+	text-align: center;
+	font-size: 30px;
+	color: SeaGreen;
+	width:30%;
+	margin: auto;
+}
+#itemsTable {
+	border: 1px solid SeaGreen;
+	width: 100%;
+}
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.headItem {
+	width: 61px;
+}
+.startItem {
+	width: 94px;
+}
+.tableHead {
+	background-color: SeaGreen;
+	color: white;
+}
