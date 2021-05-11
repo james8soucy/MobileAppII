@@ -23,7 +23,7 @@
     "cordova-plugin-contacts": "^3.0.1",
     "cordova-plugin-tesseract": "git+https://github.com/gustavomazzoni/cordova-plugin-tesseract.git",
     "cordova-sms-plugin": "^1.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "request": "^2.88.2",
     "twilio-client-phonegap-plugin": "^1.1.1"
   },
